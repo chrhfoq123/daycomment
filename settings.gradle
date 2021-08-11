@@ -1,0 +1,2 @@
+rootProject.name = "daycomment"
+include ':app'
