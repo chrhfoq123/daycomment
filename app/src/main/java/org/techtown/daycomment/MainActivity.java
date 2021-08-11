@@ -24,5 +24,8 @@ public class MainActivity extends AppCompatActivity {
         comment = findViewById(R.id.comment);
         comment.setText(ct.getComment());
 
+        ct.setContent("설명 : 말을 곱게하면 똑같이 곱게 돌아온다");
+        content = findViewById(R.id.content);
+        content.setText(ct.getContent());
     }
 }
