@@ -13,10 +13,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Comment comment = new Comment();
-        comment.setTitle("오늘의 속담");
+        Comment ct = new Comment();
+        ct.setTitle("오늘의 속담");
 
         title = findViewById(R.id.title);
-        title.setText(comment.getTitle());
+        title.setText(ct.getTitle());
+
+
+        ct.setComment("가는말이고아야오는말이곱다");
+        comment = findViewById(R.id.comment);
+        comment.setText(ct.getComment());
+
     }
 }
